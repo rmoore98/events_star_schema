@@ -22,4 +22,4 @@ SELECT
 FROM country_posts p
 JOIN country_users c 
     ON p.country = c.country
-ORDER BY posts_per_user DESC;
+ORDER BY posts_per_user DESC, posts DESC;
